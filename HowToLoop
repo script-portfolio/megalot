@@ -1,0 +1,23 @@
+
+##
+
+## When troubles with '...curl.. transporter'
+
+#
+# Do
+#
+# [root@bs6 megalot]# cat Raw/megalot.2013-09-07_23\:38\:04
+# xxxx
+# 07.09.2013
+# 25,29,6,19,17,36+1
+
+
+## then
+##      touch -d '23 hour  1 minute ago' Raw/success.cnt Raw/megalot......
+
+
+## then one temporary  line in 
+## etc/megalot.crontab
+##
+## service crond restart
+##

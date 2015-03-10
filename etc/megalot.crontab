@@ -1,0 +1,9 @@
+
+#MAILTO=vlad@localhost
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+
+MEGAPATH=/disk2/Git/K116/megalot/
+*/10 21,22 * * 3,6 root    $MEGAPATH/mega-loop.sh 1>> $MEGAPATH/outer.log.file 2>&1
+7 22 * * 1,2,4,5,7 root    $MEGAPATH/mega-loop.sh 1>> $MEGAPATH/outer.log.file 2>&1
+#12 12 * * * root    $MEGAPATH/mega-loop.sh 1>> $MEGAPATH/outer.log.file 2>&1
